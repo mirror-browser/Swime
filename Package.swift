@@ -1,11 +1,11 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
   name: "Swime",
   platforms: [
-    .iOS(.v9),
-    .macOS(.v10_10)
+    .iOS(.v12),
+    .macOS(.v11)
   ],
   products: [
     .library(name: "Swime", targets: ["Swime"])
